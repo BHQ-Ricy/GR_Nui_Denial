@@ -9,7 +9,8 @@ shared_scripts {
 	'@qb-core/shared/locale.lua',
 }
 
-client_script "client/main.lua"
+client_script 
+	"client/main.lua"
 
 server_script {
 	'@oxmysql/lib/MySQL.lua',
@@ -21,6 +22,6 @@ ui_page 'html/index.html'
 
 files {
 	'html/index.html',
-    'html/app.js'
+    	'html/app.js'
     
 }
